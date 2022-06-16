@@ -1,0 +1,203 @@
+:root {
+    /* fonts */
+    --main-font: "Roboto", sans-serif;
+    --secondary-font:"Raleway";
+    /* text color */
+    --txt-main: #212121;
+    --txt-focus: #2196F3;
+    --txt-general-btn: #FFFFFF;
+    --txt-mail-footer:rgba(255, 255, 255, 0.6);
+    
+    --txt-secondery: #757575;
+    --txt-logo: #2196F3;
+    --txt-logo-black: #000000;
+
+    /* bg color */
+    --general-btn-cl:#2196F3;
+    --menu-btn-cl:#F5F4FA;
+    --bg-hover-genbtn: #188CE8;
+    --bg-order: #2F303A;
+
+}
+
+.canceled {
+    list-style-type: none;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+.approach-hidentitle {
+    display: none;
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--txt-logo);
+}
+span.logo-accent {
+    color: var(--txt-logos);
+}
+span.logo-black {
+    color: var(--txt-logo-black);
+}
+span.logo-white {
+    color: var(--txt-general-btn);
+}
+
+body {
+    font-family: var(--main-font);
+    font-size: 16px;
+    color: var(--txt-main);
+    line-height: 1.14;
+    letter-spacing: 3%;
+}
+
+
+.header-link {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2%;
+    color: var(--txt-main);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--txt-focus);
+}
+.current {
+color: var(--txt-focus)
+}
+
+.mailto{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    color: var(--txt-secondery);
+}
+.mailto:hover,
+.mailto:focus {
+    color: var(--txt-focus);
+}
+.tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    color: var(--txt-secondery);
+}
+.tel:hover,
+.tel:focus {
+    color: var(--txt-focus);
+}
+
+.order-btn {
+    font-weight:700;
+    background-color: var(--general-btn-cl);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 6%;
+    color: var(--txt-general-btn);
+}
+.order-btn:hover,
+.order-btn:focus     {
+    background-color: var(--bg-hover-genbtn);
+}
+
+
+.filter-btn { 
+    font-weight: 500;
+    background-color: var(--menu-btn-cl);
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 3%;
+    color: var(--txt-main);
+    cursor: pointer;
+}
+.current-btn {
+    background-color: var(--general-btn-cl);
+
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--general-btn-cl);
+    color: var(--txt-general-btn);
+}
+.order-title {
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+    color: var(--txt-general-btn);
+    background-color: var(--bg-order);
+}
+
+.approach-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+
+}
+.approach-p {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+    color: var(--txt-secondery);
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 3%;
+    color: var(--txt-main);
+}
+.member-function {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 3%;
+    color: var(--txt-secondery);
+}
+.menu-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 6%;
+    color: var(--txt-main);
+}
+.menu-p {
+    font-size: 16px;
+    line-height: 1.90;
+    letter-spacing: 3%;
+    color: var(--txt-secondery);
+}
+.address-box {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+    color: var(--txt-general-btn);
+}
+.address-descr {
+    color: var(--txt-general-btn);
+}
+.mailto-footer {
+    color: var(--txt-mail-footer);
+}
+.tel-footer {
+    color: var(--txt-mail-footer);
+}
+
+.footer {
+    background-color: var(--bg-order);
+}
+.skills-title, .team-title{
+    font-style: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    }
