@@ -127,7 +127,7 @@ span.logo-white {
 .header-link {
     font-weight: 500;
     font-size: 14px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--txt-main);
 }
 .header-link:hover,
@@ -221,7 +221,7 @@ span.logo-white {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .approach-p {
@@ -372,7 +372,7 @@ display: none;
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     color: var(--txt-main);
     margin-top: 20px;
     margin-left: 24px;
@@ -382,7 +382,7 @@ display: none;
 .menu-p {
     font-size: 16px;
     line-height: 1.90;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--txt-secondery);
     margin-left: 20px;
     margin-bottom: 20px;
