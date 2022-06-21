@@ -366,7 +366,8 @@ display: none;
     margin-bottom: 94px;
 }
 .menu-item {
-    outline: 1px solid var(--item-line)
+    outline: 1px solid var(--item-line);
+    border-radius: 4px;
 }
 .menu-title {
     font-weight: 700;
