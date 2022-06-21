@@ -76,7 +76,7 @@ img {
 }
 
 .current {
-    color: var(--txt-focus)
+    color: var(--txt-focus);
 }
 
 /* common style end*/
@@ -94,8 +94,7 @@ img {
     align-items: center;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color:var(--header-line);
-    margin-bottom: 94px;
+    border-bottom: 1px solid var(--header-line);
 }
 .logo {
     font-family: var(--secondary-font);
@@ -129,6 +128,7 @@ span.logo-white {
     font-size: 14px;
     letter-spacing: 0.02em;
     color: var(--txt-main);
+    padding: 32px 0px;
 }
 .header-link:hover,
 .header-link:focus {
@@ -147,6 +147,7 @@ span.logo-white {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--txt-secondery);
+    padding: 32px 0px;
 }
 .mailto:hover,
 .mailto:focus {
@@ -159,6 +160,7 @@ span.logo-white {
     letter-spacing: 0.02em;
     color: var(--txt-secondery);
     margin-left: 50px;
+    padding: 32px 0px;
 }
 .tel:hover,
 .tel:focus {
@@ -169,11 +171,9 @@ span.logo-white {
 
 /* section order start */
 
-.container-order {
-    width: 1600px;
-    height: 600px;
+.order {
     background-color: var(--bg-order);
-    margin-bottom: 94px;
+    padding: 200px 0px;
 }
 .order-title {
     font-size: 44px;
@@ -183,18 +183,14 @@ span.logo-white {
     text-align: center;
     color: var(--txt-general-btn);
     background-color: var(--bg-order);
-    padding-top: 200px;
-    padding-right: 452px;
-    padding-left: 452px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    max-width: 650px;
+    margin: 0 auto;
 }
 .order-btn {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    margin-bottom: 200px;
     font-weight: 700;
     background-color: var(--general-btn-cl);
     font-size: 16px;
@@ -214,8 +210,11 @@ span.logo-white {
 
 /* section approach start*/
 
-.approach-item {
-    width: 270px;
+/* .approach-item {
+   
+} */
+.approach {
+    padding: 94px;
 }
 .approach-title {
     font-weight: 700;
@@ -229,13 +228,16 @@ span.logo-white {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--txt-secondery);
-    margin-bottom: 106px;
+    
 }
 
 /* section approach end*/
 
 /* section skills start */
 
+.skills {
+    padding-bottom: 94px 0px;
+}
 .skills-title,
 .team-title {
     font-style: 700;
@@ -244,20 +246,26 @@ span.logo-white {
     text-align: center;
     padding-bottom: 50px;
 }
-.skills-item {
+/* .skills-item {
     margin-bottom: 82px;
-}
+} */
 
 /* section skills end */
 
 /* section team start */
-.container-team {
-    width: 1600px;
-    height: 648px;
-    background: var(--menu-btn-cl)
+.team {
+    background: var(--menu-btn-cl);
+    padding: 94px 0px;
+}
+.team-member {
+    background: var(--txt-general-btn);
+    border-radius: 4px;
 }
 .team-list {
     --item: 4;
+}
+.member-list {
+    padding: 30px 0px;
 }
 .member-name {
     font-weight: 500;
@@ -267,7 +275,6 @@ span.logo-white {
     color: var(--txt-main);
     text-align: center;
     margin-bottom: 10px;
-    margin-top: 30px;
 }
 
 .member-function {
@@ -276,25 +283,17 @@ span.logo-white {
     letter-spacing: 0.03em;
     color: var(--txt-secondery);
     text-align: center;
-    margin-bottom: 30px;
+
 }
 
 /* section team end */
 
 /* footer start */
-
-.container-footer {
-    width: 1600px;
-    height: 252px;
+.footer {
     background-color: var(--bg-order);
+    padding: 60px 0px;
 }
 
-.address {
-    padding-top: 60px;
-    padding-right: 1240px;
-    padding-bottom: 20px;
-    padding-left: 215px;
-}
 .address-box {
     font-size: 14px;
     line-height: 1.71;
@@ -329,6 +328,9 @@ span.logo-white {
 .approach-hidentitle {
 display: none;
 }
+.filter {
+    padding: 94px;
+}
 
 .filter-list {
     display: flex;
@@ -351,10 +353,15 @@ display: none;
     cursor: pointer;
     outline: none;
     border-style: none;
-    margin-bottom: 34px;
+    padding: 6px 22px;
+    border-radius: 4px;
 }
 .filter-btn:hover,
 .filter-btn:focus {
+    background-color: var(--general-btn-cl);
+    color: var(--txt-general-btn);
+}
+.current-btn {
     background-color: var(--general-btn-cl);
     color: var(--txt-general-btn);
 }
@@ -362,21 +369,23 @@ display: none;
     --item: ;
 }
 
-.menu-list:nth-last-child(-n + 3) {
-    margin-bottom: 94px;
-}
+/* .menu-list:nth-last-child(-n + 3) {
+   
+} */
 .menu-item {
     outline: 1px solid var(--item-line);
     border-radius: 4px;
 }
+.block-list {
+    padding: 20px 24px;
+}
+
 .menu-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
     letter-spacing: 0.06em;
     color: var(--txt-main);
-    margin-top: 20px;
-    margin-left: 24px;
     margin-bottom: 4px;
 }
 
@@ -385,8 +394,6 @@ display: none;
     line-height: 1.90;
     letter-spacing: 0.03em;
     color: var(--txt-secondery);
-    margin-left: 20px;
-    margin-bottom: 20px;
 }
 /* portfolio filter end */
 
